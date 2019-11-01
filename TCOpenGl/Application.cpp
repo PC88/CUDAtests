@@ -12,6 +12,8 @@
 
 #include "tests\TestClearColor.h"
 #include "tests\TestMenu.h"
+#include "tests\TestDist_v1.h"
+#include "tests\TestDist_v2.h"
 
 #include <GL\glew.h>
 #include <GLFW/glfw3.h>
@@ -66,6 +68,8 @@ int main(void)
 		currentTest = testMenu;
 
 		testMenu->RegisterTest<TestClearColor>("Clear Color");
+		testMenu->RegisterTest<TestDist_v1>("dist_v1");
+		testMenu->RegisterTest<TestDist_v2>("dist_v2");
 
 		/* Loop until the user closes the window */
 		while (!glfwWindowShouldClose(window))
