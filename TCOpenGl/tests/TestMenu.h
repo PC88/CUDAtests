@@ -3,8 +3,6 @@
 #include <functional>
 #include <Vector>
 
-namespace tests {
-
 	class TestMenu :
 		public Test
 	{
@@ -26,5 +24,3 @@ namespace tests {
 		std::vector<std::pair<std::string, std::function<Test*()>>> m_Tests;
 		Test*& m_CurrentTest;
 	};
-
-}

@@ -2,7 +2,6 @@
 #include "Test.h"
 #include <GL\glew.h>
 
-namespace tests {
 	class TestClearColor :
 		public Test
 	{
@@ -17,4 +16,3 @@ namespace tests {
 	private:
 		float m_ClearColor[4];
 	};
-}

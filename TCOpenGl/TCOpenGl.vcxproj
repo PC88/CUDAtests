@@ -143,6 +143,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
+    <ClCompile Include="tests\TestDist_v1.cpp" />
+    <ClCompile Include="tests\TestDist_v2.cpp" />
     <ClCompile Include="tests\TestMenu.cpp" />
     <ClCompile Include="tests\TestClearColor.cpp" />
     <ClCompile Include="tests\Test.cpp" />
@@ -294,6 +296,8 @@
     <ClInclude Include="Src\IndexBuffer.h" />
     <ClInclude Include="Src\Renderer.h" />
     <ClInclude Include="Src\VertexBuffer.h" />
+    <ClInclude Include="tests\TestDist_v1.h" />
+    <ClInclude Include="tests\TestDist_v2.h" />
     <ClInclude Include="tests\TestMenu.h" />
     <ClInclude Include="tests\TestClearColor.h" />
     <ClInclude Include="tests\Test.h" />

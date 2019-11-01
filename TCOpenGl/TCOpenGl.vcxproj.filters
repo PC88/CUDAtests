@@ -13,6 +13,8 @@
     <ClCompile Include="tests\Test.cpp" />
     <ClCompile Include="tests\TestClearColor.cpp" />
     <ClCompile Include="tests\TestMenu.cpp" />
+    <ClCompile Include="tests\TestDist_v2.cpp" />
+    <ClCompile Include="tests\TestDist_v1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\IndexBuffer.h" />
@@ -270,6 +272,8 @@
     <ClInclude Include="tests\Test.h" />
     <ClInclude Include="tests\TestClearColor.h" />
     <ClInclude Include="tests\TestMenu.h" />
+    <ClInclude Include="tests\TestDist_v2.h" />
+    <ClInclude Include="tests\TestDist_v1.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Res\Shaders\Basic.shader" />

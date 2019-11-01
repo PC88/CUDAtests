@@ -1,7 +1,5 @@
 #include "Test.h"
 
-namespace tests {
-
 	Test::Test()
 	{
 	}
@@ -10,4 +8,3 @@ namespace tests {
 	{
 	}
 
-}

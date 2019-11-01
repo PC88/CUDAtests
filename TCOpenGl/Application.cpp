@@ -61,11 +61,11 @@ int main(void)
 		ImGui_ImplGlfw_InitForOpenGL(window, true);
 		ImGui::StyleColorsDark();
 
-		tests::Test* currentTest = nullptr;
-		tests::TestMenu* testMenu = new tests::TestMenu(currentTest);
+		Test* currentTest = nullptr;
+		TestMenu* testMenu = new TestMenu(currentTest);
 		currentTest = testMenu;
 
-		testMenu->RegisterTest<tests::TestClearColor>("Clear Color");
+		testMenu->RegisterTest<TestClearColor>("Clear Color");
 
 		/* Loop until the user closes the window */
 		while (!glfwWindowShouldClose(window))

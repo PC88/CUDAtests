@@ -1,7 +1,5 @@
 #pragma once
 
-namespace tests {
-
 	class Test
 	{
 	public:
@@ -14,6 +12,4 @@ namespace tests {
 		virtual void OnImGuiRender() {};
 
 	};
-
-}
 

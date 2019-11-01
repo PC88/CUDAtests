@@ -1,8 +1,6 @@
 #include "TestMenu.h"
 #include "imgui/imgui.h"
 
-namespace tests {
-
 	TestMenu::TestMenu(Test*& currentTestPointer)
 		: m_CurrentTest(currentTestPointer)
 	{
@@ -23,6 +21,5 @@ namespace tests {
 		}
 	}
 
-}
 
 
