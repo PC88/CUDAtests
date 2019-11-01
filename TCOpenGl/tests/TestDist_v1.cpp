@@ -7,10 +7,11 @@ TestDist_v1::TestDist_v1()
 }
 
 
-TestDist_v1::TestDist_v1()
+TestDist_v1::~TestDist_v1()
 {
 
 }
+
 
 float TestDist_v1::scale(int i, int n)
 {
